@@ -1,0 +1,35 @@
+/* VIEW HEIGHT */
+@media (min-width: 102vh){ /* tela inteira */
+    body {background-color: rgba(255, 99, 71, 0.7);}
+} 
+
+@media (max-width: 102vh){ /* meia tela */
+    body {background-color: rgba(255, 255, 0, 0.7);} 
+}
+
+body {
+    color: rgb(66, 66, 66);
+    font-size: 1.7rem;
+    margin: auto;
+    max-width: 60ch;
+    padding: 2ch;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+a {
+    background-color: rgb(66, 66, 66);
+    border-radius: 2rem;
+    color: white;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    margin: auto 20vw;
+}
